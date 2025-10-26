@@ -1,0 +1,1 @@
+This repositiory is based on GPL v2 as specified in LICENSE.
