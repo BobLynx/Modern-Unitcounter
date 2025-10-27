@@ -83,14 +83,14 @@ guiTypes = {
 		iconType = {
 			name = "bar_org"
 			spriteType = "GFX_mapicon_unit_bar_org"
-			position = { x=0 y=-14 }
+			position = { x=0 y=-17 }
 			alwaystransparent = yes
 			rotation = 1.5708
 		}
 		iconType = {
 			name = "bar_str"
 			spriteType = "GFX_mapicon_unit_bar_str"
-			position = { x=0 y=-13.5 }
+			position = { x=0 y=-17 }
 			alwaystransparent = yes
 			rotation = 1.5708
 		}
@@ -146,19 +146,19 @@ guiTypes = {
 		iconType = {
 			name = "onmap_digin_icon"
 			spriteType = "GFX_onmap_digin_icon"
-			position = { x=56 y=8 }
+			position = { x=63 y=38 }
 		}
 
 		iconType = {
 			name = "onmap_training_icon"
 			spriteType = "GFX_onmap_training_icon"
-			position = { x=54 y=8 }
+			position = { x=63 y=38 }
 		}
 
 		iconType = { 
 			name = "onmap_action_icon"
 			spriteType = "GFX_onmap_action_icon"
-			position = { x=54 y=7 }
+			position = { x=63 y=37 }
 		}
 	}
 

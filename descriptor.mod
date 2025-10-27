@@ -2,5 +2,6 @@ version="0.1.1"
 tags={
 	"Graphics"
 }
-name="Modern Unitpanel"
+name="Modern Unitcounter"
 supported_version="1.16.10"
+remote_file_id="3594514402"
