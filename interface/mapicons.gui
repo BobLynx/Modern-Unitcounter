@@ -10,7 +10,7 @@ guiTypes = {
 	# Offset for unit counters when zoomed in, only y value used for now
 	positionType = {
 		name = "unit_counter_zoomed_in_offset"
-		position = { x = 0 y = 55 }
+		position = { x = 0 y = -450 }
 	}
 
 
@@ -40,12 +40,12 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 
-		iconType = {
-			name = "counter_overlay"
-			spriteType = "GFX_onmap_unit_counter_overlay"
-			position = { x=3 y=3 }
-			alwaystransparent = yes
-		}
+#		iconType = {
+#			name = "counter_overlay"
+#			spriteType = "GFX_onmap_unit_counter_overlay"
+#			position = { x=30 y=30 }
+#			alwaystransparent = yes
+#		}
 
 		iconType = {
 			name = "count_selected"
@@ -66,14 +66,15 @@ guiTypes = {
 		iconType = {
 			name = "type"
 			spriteType = "GFX_tiled_window_transparent"
-			position = { x=3 y=3 }
+			position = { x=10 y=22 }
 			alwaystransparent = yes
+			scale = 1.5
 		}
 
 		instantTextboxType = {
 			name = "count_txt"
-			position = { x=36 y=6 }
-			font = "Main_14"
+			position = { x=42 y=16 }
+			font = "Main_20"
 			maxWidth = 20
 			maxHeight = 14
 			format = center
@@ -82,33 +83,33 @@ guiTypes = {
 		iconType = {
 			name = "bar_org"
 			spriteType = "GFX_mapicon_unit_bar_org"
-			position = { x=14 y=8 }
+			position = { x=0 y=-14 }
 			alwaystransparent = yes
 			rotation = 1.5708
 		}
 		iconType = {
 			name = "bar_str"
 			spriteType = "GFX_mapicon_unit_bar_str"
-			position = { x=14 y=12 }
+			position = { x=0 y=-13.5 }
 			alwaystransparent = yes
 			rotation = 1.5708
 		}
 
-		iconType = {
-			name = "flag"
-			spriteType = "GFX_mapicon_unit_flag_stripe"
-			position = { x=5 y=15 }
-			Orientation = "UPPER_LEFT"
-			alwaystransparent = yes
-		}
+#		iconType = {
+#			name = "flag"
+#			spriteType = "GFX_mapicon_unit_flag_stripe"
+#			position = { x=5 y=15 }
+#			Orientation = "UPPER_LEFT"
+#			alwaystransparent = yes
+#		}
 
-		iconType = {
-			name = "large_flag"
-			spriteType = "GFX_mapicon_unit_large_flag_stripe"
-			position = { x = 4 y = 5 }
-			alwaystransparent = yes
-			scale = 0.69
-		}
+#		iconType = {
+#			name = "large_flag"
+#			spriteType = "GFX_mapicon_unit_large_flag_stripe"
+#			position = { x = 4 y = 5 }
+#			alwaystransparent = yes
+#			scale = 0.69
+#		}
 
 		iconType = {
 			name = "attrition"
