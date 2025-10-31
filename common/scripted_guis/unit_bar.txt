@@ -1,0 +1,29 @@
+scripted_gui = {
+    # An arbitrary name for this script block
+    name = "bar_org"
+
+    # This links the script to the window we created in the .gui file
+    window_name = "mapicons_container"
+
+    # The context determines what data the GUI can see.
+    # 'player_context' gives access to the player country's flags and variables.
+    context_type = player_context
+
+    # 'properties' allows us to dynamically change aspects of GUI elements.
+    # This is where we control the progress bar's fill level.
+    properties = {
+        # We target the progress bar element by its name from the .gui file
+        my_custom_org_bar_element = {
+            # 'frame' sets which 'step' the progress bar should display.
+            # The value must be between 0 and the 'steps' value from the .gfx file (0-99 in our case).
+            # We are setting it based on a global variable 'unit_org_percent'.
+            frame = num_days
+        }
+    }
+
+    # This makes the window visible only if the player has a specific country flag.
+    # This is a common practice to control when custom GUIs appear.
+    visible = {
+        has_country_flag = show_custom_org_window
+    }
+}
