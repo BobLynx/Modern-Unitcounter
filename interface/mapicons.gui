@@ -29,7 +29,7 @@ guiTypes = {
 		iconType = {
 			name = "group_marker"
 			spriteType = "GFX_UV_group_marker"
-			position = { x=55 y=2 }
+			position = { x=0 y=14 }
 			alwaystransparent = yes
 		}
 
@@ -129,11 +129,11 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 
-		iconType = {
-			name = "attrition"
-			spriteType = "GFX_unit_attrition"
-			position = { x=-4 y=-1 }
-		}
+#		iconType = {
+#			name = "attrition"
+#			spriteType = "GFX_unit_attrition"
+#			position = { x=-4 y=-1 }
+#		}
 
 		iconType = {
 			name = "no_orders"
