@@ -97,9 +97,9 @@ guiTypes = {
 		iconType = {
 			name = "type"
 			spriteType = "GFX_tiled_window_transparent"
-			position = { x=6 y=20 }
+			position = { x=4 y=15 }
 			alwaystransparent = yes
-			scale = 1.8
+			scale = 0.75
 		}
 
 #		iconType = {
@@ -120,7 +120,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "count_txt"
-			position = { x=42 y=0 }
+			position = { x=42 y=14 }
 			#Font should be Arial, grey color.
 			font = "hoi_20b"
 			maxWidth = 20
@@ -164,7 +164,8 @@ guiTypes = {
 		iconType = {
 			name = "onmap_digin_icon"
 			spriteType = "GFX_onmap_digin_icon"
-			position = { x=63 y=38 }
+			position = { x=3 y=3 }
+			scale = 0.5
 		}
 
 		iconType = {
@@ -176,7 +177,7 @@ guiTypes = {
 		iconType = { 
 			name = "onmap_action_icon"
 			spriteType = "GFX_onmap_action_icon"
-			position = { x=63 y=37 }
+			position = { x=50 y=2 }
 		}
 	}
 
