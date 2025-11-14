@@ -48,13 +48,6 @@ guiTypes = {
 #		}
 
 		iconType = {
-			name = "count_selected"
-			spriteType = "GFX_onmap_unit_counter_selected"
-			position = { x=0 y=0 }
-			alwaystransparent = yes
-		}
-
-		iconType = {
 			name = "active_ability"
 			spriteType = "GFX_onmap_unit_counter_active_ability"
 			position = { x=32 y=-11 }
@@ -67,14 +60,22 @@ guiTypes = {
 #		iconType = {
 #			name = "bar_org_bg"
 #			spriteType = "GFX_mapicon_unit_bar_org_bg"
-#			position = { x=15.5 y=50 }
+#			position = { x=4 y=13 }
 #			alwaystransparent = yes
 #		}
 
 		iconType = {
 			name = "bar_org"
 			spriteType = "GFX_mapicon_unit_bar_org"
-			position = { x=1 y=-14 }
+			position = { x=2 y=-14 }
+			alwaystransparent = yes
+			rotation = 1.5708
+		}
+
+		iconType = {
+			name = "bar_str"
+			spriteType = "GFX_mapicon_unit_bar_str"
+			position = { x=2 y=-14 }
 			alwaystransparent = yes
 			rotation = 1.5708
 		}
@@ -82,17 +83,9 @@ guiTypes = {
 #		iconType = {
 #			name = "bar_org_overlap"
 #			spriteType = "GFX_mapicon_unit_bar_org_overlap"
-#			position = { x=17.5 y=43 }
+#			position = { x=3.75 y=13 }
 #			alwaystransparent = yes
 #		}
-
-		iconType = {
-			name = "bar_str"
-			spriteType = "GFX_mapicon_unit_bar_str"
-			position = { x=1 y=-14 }
-			alwaystransparent = yes
-			rotation = 1.5708
-		}
 
 		iconType = {
 			name = "type"
@@ -100,6 +93,13 @@ guiTypes = {
 			position = { x=4 y=15 }
 			alwaystransparent = yes
 			scale = 0.75
+		}
+
+		iconType = {
+			name = "count_selected"
+			spriteType = "GFX_onmap_unit_counter_selected"
+			position = { x=0 y=0 }
+			alwaystransparent = yes
 		}
 
 #		iconType = {
@@ -161,12 +161,11 @@ guiTypes = {
 			scale = 0.35
 		}
 
-		iconType = {
-			name = "onmap_digin_icon"
-			spriteType = "GFX_onmap_digin_icon"
-			position = { x=3 y=3 }
-			scale = 0.5
-		}
+#		iconType = {
+#			name = "onmap_digin_icon"
+#			spriteType = "GFX_onmap_digin_icon"
+#			position = { x=0 y=0 }
+#		}
 
 		iconType = {
 			name = "onmap_training_icon"
