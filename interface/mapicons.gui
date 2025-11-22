@@ -17,7 +17,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "unit_counter"
 		position = { x=0 y=-35 }
-		size = { width = 65 height = 55 }
+		size = { width = 65 height = 40 }
 		clipping = no
 
 		buttonType = {
@@ -161,11 +161,11 @@ guiTypes = {
 			scale = 0.35
 		}
 
-#		iconType = {
-#			name = "onmap_digin_icon"
-#			spriteType = "GFX_onmap_digin_icon"
-#			position = { x=0 y=0 }
-#		}
+		iconType = {
+			name = "onmap_digin_icon"
+			spriteType = "GFX_onmap_digin_icon"
+			position = { x=4 y=4 }
+		}
 
 		iconType = {
 			name = "onmap_training_icon"
