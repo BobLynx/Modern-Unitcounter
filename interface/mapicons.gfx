@@ -87,7 +87,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/onmap_unit_counter_overlay_navy.dds"
 		alwaystransparent = yes
 	}
-	
+
 	spriteType = {
 		name = "GFX_onmap_mission_unit_counter"
 		texturefile = "gfx/interface/onmap_mission_unit_counter.dds"
@@ -98,7 +98,17 @@ spriteTypes = {
 		texturefile = "gfx/interface/onmap_naval_unit_counter.dds"
 		noOfFrames = 3
 	}
-	
+
+	spriteType = {
+		name = "GFX_onmap_naval_unit_counter_ring"
+		texturefile = "gfx/interface/onmap_naval_unit_counter_ring.dds"
+	}
+
+	spriteType = {
+		name = "GFX_onmap_naval_unit_counter_txt_bg"
+		texturefile = "gfx/interface/onmap_naval_unit_counter_txt_bg.dds"
+	}
+
 	spriteType = {
 		name = "GFX_onmap_mission_unit_counter_selected"
 		texturefile = "gfx/interface/onmap_mission_unit_counter_selected.dds"
