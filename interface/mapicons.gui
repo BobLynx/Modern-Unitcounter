@@ -95,13 +95,6 @@ guiTypes = {
 			scale = 0.75
 		}
 
-		iconType = {
-			name = "count_selected"
-			spriteType = "GFX_onmap_unit_counter_selected"
-			position = { x=0 y=0 }
-			alwaystransparent = yes
-		}
-
 #		iconType = {
 #			name = "flag"
 #			spriteType = "GFX_mapicon_unit_flag_stripe"
@@ -122,10 +115,24 @@ guiTypes = {
 			name = "count_txt"
 			position = { x=42 y=14 }
 			#Font should be Arial, grey color.
-			font = "hoi_20b"
+			font = "Rajdhani"
 			maxWidth = 20
 			maxHeight = 14
 			format = right
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "ring"
+			spriteType = "GFX_onmap_unit_counter_ring"
+			position = { x=0 y=0 }
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "count_selected"
+			spriteType = "GFX_onmap_unit_counter_selected"
+			position = { x=0 y=0 }
 			alwaystransparent = yes
 		}
 
@@ -191,13 +198,6 @@ guiTypes = {
 			quadTextureSprite = "GFX_onmap_naval_unit_counter"
 			position = { x=0 y=0 }
 			frame = 1
-		}
-
-		iconType = {
-			name = "ring"
-			spriteType = "GFX_onmap_naval_unit_counter_ring"
-			position = { x=0 y=0 }
-			alwaystransparent = yes
 		}
 
 		iconType = {
@@ -268,7 +268,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "spotting_bar_container"
-			position = { x=65 y=3 }
+			position = { x=96 y=6 }
 
 			iconType = {
 				name = "spotting_bar_bg"
@@ -322,6 +322,23 @@ guiTypes = {
 		#	alwaystransparent = yes
 		#}
 
+
+
+		iconType = {
+			name = "large_flag"
+			spriteType = "GFX_mapicon_unit_large_flag_stripe"
+			position = { x = 10 y = 12 }
+			alwaystransparent = yes
+			scale = 0.69
+		}
+
+		iconType = {
+			name = "ring"
+			spriteType = "GFX_onmap_naval_unit_counter_ring"
+			position = { x=0 y=0 }
+			alwaystransparent = yes
+		}
+
 		iconType = {
 			name = "count_selected"
 			spriteType = "GFX_onmap_mission_unit_counter_selected"
@@ -329,19 +346,10 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 
-
-		iconType = {
-			name = "large_flag"
-			spriteType = "GFX_mapicon_unit_large_flag_stripe"
-			position = { x = 4 y = 10 }
-			alwaystransparent = yes
-			scale = 0.69
-		}
-
 		iconType = {
 			name = "low_supply"
 			spriteType = "GFX_unitcounter_supply_status_strip"
-			position = { x=24 y=-4 }
+			position = { x=45 y=10 }
 			alwaystransparent = yes
 			scale = 0.75
 		}
@@ -372,13 +380,13 @@ guiTypes = {
 		iconType = {
 			name = "invalid_orders"
 			spriteType = "GFX_mapicon_unit_invalid_orders"
-			position = { x=-8 y=-3 }
+			position = { x=-8 y=-6 }
 		}
 
 		iconType = {
 			name = "no_orders"
 			spriteType = "GFX_mapicon_unit_no_orders"
-			position = { x=-8 y=-3 }
+			position = { x=-8 y=-6 }
 		}
 
 	}
@@ -570,6 +578,13 @@ guiTypes = {
 			spriteType = "GFX_mapicon_unit_flag_stripe"
 			position = { x=4 y=15 }
 			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "ring"
+			spriteType = "GFX_onmap_unit_counter_ring"
+			position = { x=0 y=0 }
 			alwaystransparent = yes
 		}
 
