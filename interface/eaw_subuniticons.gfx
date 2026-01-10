@@ -1,0 +1,37 @@
+spriteTypes = {
+	spriteType = { name = "GFX_unit_magical_infantry_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_large/unit_magical_infantry_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_pegasi_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_large/unit_pegasi_infantry_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_unicorn_company_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_large/unit_unicorn_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_infiltrator_company_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_large/unit_infiltrator_infantry_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_knights_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_large/knights_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_ironpaws_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_large/unit_ironpaw_infantry_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_troll_hound_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_large/unit_trollhound_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_light_dragons_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_large/light_dragons_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_heavy_dragons_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_large/heavy_dragons_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_at_armored_car_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_large/unit_at_armored_car_icon.dds" noOfFrames = 2 }	
+	spriteType = { name = "GFX_unit_kirin_vanguards_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_large/unit_vanguards_icon.dds" noOfFrames = 2 }	
+	spriteType = { name = "GFX_unit_kirin_braves_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_large/unit_braves_icon.dds" noOfFrames = 2 }	
+	spriteType = { name = "GFX_unit_windigo_horrors_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_large/unit_windigo_horrors_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_spirit_warriors_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_large/unit_spirit_warriors_icon.dds" noOfFrames = 2 }
+    spriteType = { name = "GFX_unit_panzerbar_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_large/unit_windigo_horrors_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_magical_panzerbar_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_large/unit_magical_panzerbar_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_magical_artillery_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_large/unit_magical_artillery_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_magical_tank_detachment_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_large/unit_magical_tonks_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_modern_flame_tank_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_large/engineer_armored_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_super_heavy_flame_tank_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_large/unit_super_heavy_flamethrower_tank_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_tatzlwurm_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_large/unit_tatzlwurm_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_ded_tatzlwurm_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_large/unit_tatzlwurm_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_ded_anti_infantry_monster_2_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_large/unit_chimera_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_ded_anti_infantry_monster_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_large/unit_manticore_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_ded_anti_tank_monster_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_large/unit_slingtail_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_ded_heavy_monster_2_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_large/unit_hydra_2_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_ded_heavy_monster_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_large/unit_titan_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_magical_mechanized_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_large/unit_magical_mechanized_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_magical_motorized_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_large/unit_magical_motorized_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_attack_helicopter_company_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_large/unit_attack_heli_support_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_anti_tank_rifles_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_large/unit_anti_tank_rifles_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_amphibious_modern_armor_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_large/unit_modern_amphibious_tank_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_hydras_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_large/unit_hydra_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_ABY_cavalry_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_large/unit_cavalry_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_ponies_of_shadow_troops_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_large/unit_ponies_of_shadow_troops_icon.dds" noOfFrames = 2 }
+}
