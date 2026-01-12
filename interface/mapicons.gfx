@@ -88,6 +88,12 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_onmap_unit_counter_slab"
+		noOfFrames = 3
+		texturefile = "gfx/interface/onmap_unit_counter_slab.dds"
+	}
+
+	spriteType = {
 		name = "GFX_onmap_unit_counter_overlay_navy"
 		texturefile = "gfx/interface/onmap_unit_counter_overlay_navy.dds"
 		alwaystransparent = yes
@@ -344,8 +350,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_mapicon_unit_bar_org_overlap"
-		texturefile = "gfx/interface/mapicons/mapicon_bar_org_overlap_sprite.dds"
+		name = "GFX_mapicon_unit_bar_overlay"
+		texturefile = "gfx/interface/mapicons/mapicon_bar_overlay_sprite.dds"
 	}
 
 	spriteType = {

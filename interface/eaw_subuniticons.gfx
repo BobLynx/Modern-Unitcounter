@@ -34,4 +34,21 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_hydras_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_large/unit_hydra_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_ABY_cavalry_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_large/unit_cavalry_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_ponies_of_shadow_troops_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_large/unit_ponies_of_shadow_troops_icon.dds" noOfFrames = 2 }
+
+
+	spriteType = {
+		name = "GFX_unit_jager_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_large/unit_jaeger_icon.dds" noOfFrames = 2
+	}
+
+
+	spriteType = {
+		name = "GFX_unit_flamethrower_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_large/support_unit_flamethrower_icon.dds" noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_unit_shocktroop_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_large/unit_shocktroop_icon.dds" noOfFrames = 2
+	}
 }

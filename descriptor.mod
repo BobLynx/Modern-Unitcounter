@@ -1,8 +1,6 @@
-version="0.7.4"
+version="0.7.4c"
 tags={
 	"Graphics"
 }
-name="Modern Unitcounter"
-dependencies = { "Equestria at War" }
-supported_version="1.17.*"
-remote_file_id="3594514402"
+name="Modern Unitcounter Competizione"
+supported_version="1.17.3.0"
