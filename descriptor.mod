@@ -1,6 +1,11 @@
-version="0.7.4c"
+version="0.7.5c"
 tags={
 	"Graphics"
 }
 name="Modern Unitcounter Competizione"
-supported_version="1.17.3.0"
+dependencies={
+	"Equestria at War"
+	"Micropp"
+}
+supported_version="1.17.*"
+remote_file_id="3645534406"
