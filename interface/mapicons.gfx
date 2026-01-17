@@ -23,9 +23,13 @@ spriteTypes = {
 		noOfFrames = 14
 	}
 
-	spriteType = {
+	frameAnimatedSpriteType = {
 		name = "GFX_onmap_training_icon"
 		texturefile = "gfx/interface/onmap_in_training_icon.dds"
+		noOfFrames = 2
+		animation_rate_fps = 2
+		looping = yes
+		play_on_show = yes
 	}
 
 	spriteType = {
