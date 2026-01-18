@@ -13,6 +13,7 @@ bitmapfonts = {
 			T = { 255 255 255 }
 		}
 	}
+
 	bitmapfont = {
 		name = "Rajdhani_black"
 		path = "gfx/fonts/Rajdhani"
