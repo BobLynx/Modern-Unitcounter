@@ -91,6 +91,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/onmap_unit_counter_ring.dds"
 	}
 
+	spriteType = {
+		name = "GFX_onmap_unit_counter_txt_bg"
+		texturefile = "gfx/interface/onmap_unit_counter_txt_bg.dds"
+	}
+
 	#spriteType = {
 	#	name = "GFX_onmap_unit_counter_slab"
 	#	noOfFrames = 3
