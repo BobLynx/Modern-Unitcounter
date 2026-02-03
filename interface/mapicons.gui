@@ -62,6 +62,20 @@ guiTypes = {
 			scale = 0.8
 		}
 
+		iconType = {
+			name = "large_flag"
+			spriteType = "GFX_mapicon_unit_large_flag_stripe"
+			position = { x = 4 y = 15 }
+			alwaystransparent = yes
+			scale = 1.390243902
+		}
+
+		iconType = {
+			name = "txt_bg"
+			spriteType = "GFX_onmap_unit_counter_txt_bg"
+			position = { x = 46 y = 17 }
+			alwaystransparent = yes
+		}
 
 #		iconType = {
 #			name = "bar_org_bg"
@@ -109,20 +123,6 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 
-		iconType = {
-			name = "large_flag"
-			spriteType = "GFX_mapicon_unit_large_flag_stripe"
-			position = { x = 4 y = 15 }
-			alwaystransparent = yes
-			scale = 1.390243902
-		}
-
-		iconType = {
-			name = "txt_bg"
-			spriteType = "GFX_onmap_unit_counter_txt_bg"
-			position = { x = 46 y = 18 }
-			alwaystransparent = yes
-		}
 
 		instantTextboxType = {
 			name = "count_txt"
