@@ -235,9 +235,8 @@ guiTypes = {
 		iconType = {
 			name = "type"
 			spriteType = "GFX_tiled_window_transparent"
-			position = { x = 10 y = 8 }
+			position = { x = 5 y = 5 }
 			alwaystransparent = yes
-			scale = 0.5
 		}
 
 		iconType = {
