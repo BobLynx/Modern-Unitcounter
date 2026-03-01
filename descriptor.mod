@@ -1,4 +1,4 @@
-version="0.9.1c"
+version="1.0.0c"
 tags={
 	"Graphics"
 }
