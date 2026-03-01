@@ -181,11 +181,11 @@ guiTypes = {
 			scale = 0.35
 		}
 
-#		iconType = {
-#			name = "onmap_digin_icon"
-#			spriteType = "GFX_onmap_digin_icon"
-#			position = { x = 4 y = 4 }
-#		}
+		iconType = {
+			name = "onmap_digin_icon"
+			spriteType = "GFX_onmap_digin_icon"
+			position = { x = 65 y = 4 }
+		}
 
 		iconType = {
 			name = "onmap_training_icon"
