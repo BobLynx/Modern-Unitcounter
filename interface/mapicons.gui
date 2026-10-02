@@ -112,7 +112,6 @@ guiTypes = {
 			spriteType = "GFX_tiled_window_transparent"
 			position = { x = 6 y = 15 }
 			alwaystransparent = yes
-#			scale = 0.75
 		}
 
 		iconType = {
@@ -457,10 +456,9 @@ guiTypes = {
 		iconType = {
 			name = "wing_type"
 			spriteType = "GFX_wing_types_map"
-			position = { x = 10 y = 20 }
+			position = { x = 6 y = 15 }
 			alwaystransparent = yes
 			frame = 1
-			scale = 1.6
 		}
 
 		instantTextboxType = {
